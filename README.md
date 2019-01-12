@@ -9,5 +9,6 @@ CloudComputing final project
 
 源文件说明：
 1. 本文件包含了Nginx服务器和终端Tomcat服务器的两套源代码，分别是src/main/java/目录下的NginxServer和TerminalServer两个包文件。
-
-2. 
+2. NginxServer包下涵盖了Nginx服务器端的消息发的发送和接收线程。
+3. TerminalServer包下是Tomcat服务器的源代码，包括如何获取Linux环境下的系统信息，如何向Nginx服务器发送Socket以及监听自身端口的源代码。
+4. 
